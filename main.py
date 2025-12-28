@@ -46,7 +46,7 @@ def main():
 
       This tool solves that issue by generating a language file that you can place in a [resource pack](https://minecraft.wiki/w/Resource_pack#Language) or mod.
     """)
-    st.image('https://i.postimg.cc/YSZv9z51/bnf.png', use_column_width='always')
+    st.image('https://i.postimg.cc/YSZv9z51/bnf.png', width='content')
     files = st.file_uploader("Upload a datapack or mod", type=["zip", "jar"], accept_multiple_files=True)
 
     biome_folders = []
