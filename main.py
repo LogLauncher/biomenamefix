@@ -34,7 +34,7 @@ def create_json_file(zip_files):
         json_name = f.split("/")[-1].replace(".json", "")
         namespace_name = f.split("/")[-4].split("/")[-1]
         biome_data[f"biome.{namespace_name}.{json_name}"] = json_name.replace("_", " ").title()
-        return biome_data
+  return biome_data
 
 
 def main():
